@@ -1,0 +1,58 @@
+/* @import url(//db.onlinewebfonts.com/c/84cb021d5f9af287ffff84b61beef6dc?family=clockicons); */
+
+@font-face {
+    font-family: 'providence';
+    src: url('clockicons/clockicons.ttf');
+}
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.main{
+    margin: 20px;
+    /* width: 100%; */
+    background-color: white;
+}
+.head{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+#watch{
+    margin-top: 20px;
+    text-align: center;
+margin-bottom: 20px;
+
+}
+span{
+    font-family: providence, sans-serif;
+    font-size: 120px;
+}
+
+button{
+    color: white;
+    font-size: 20px;
+    border-radius: 5px ;
+    padding: 10px 20px;
+    margin: 05px;
+}
+.start{
+    background-color: green;
+}
+.save{
+    background-color: blue;
+}
+
+.reset{
+    background-color: blue;
+}
+
+.btn{
+    margin: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
